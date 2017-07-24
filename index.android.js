@@ -13,11 +13,31 @@ import {
 } from 'react-native';
 
 import Main from './component/main/main';
+import {Navigator} from 'react-native-deprecated-custom-components';
+import Welcome from './component/main/welcome'
 
 export default class RnStore extends Component {
     render() {
         return (
-            <Main/>
+            <Navigator
+                initialRoute={{name: '欢迎', component: Welcome}}
+
+                configureScene={
+                    (route) => {
+                        return ({
+                            ...Navigator.SceneConfigs.PushFromRight,
+                            gestures: null
+                        });
+                    }
+                }
+
+                renderScene={
+                    (route, navigator) => {
+                        let Component = route.component;
+                        return <Component {...route.params} navigator={navigator}/>
+                    }
+                }
+            />
         );
     }
 }
