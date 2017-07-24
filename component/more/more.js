@@ -46,12 +46,12 @@ const styles = StyleSheet.create({
         height: Platform.OS === 'ios' ? 64 : 44,
         backgroundColor: 'rgba(255,96,0,1.0)',
         alignItems: 'center',
-        marginTop: Platform.OS === 'ios' ? 18 : 0,
         justifyContent: 'center'
     },
     topText: {
         color: '#ffffff',
-        fontSize: 16
+        fontSize: 16,
+        marginTop: Platform.OS === 'ios' ? 18 : 0,
     },
     topImg: {
         width: 25,
@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
     },
     topRight:{
         position:'absolute',
-        right:10
+        right:10,
+        marginTop: Platform.OS === 'ios' ? 18 : 0,
     }
 
 });
