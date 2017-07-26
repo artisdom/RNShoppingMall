@@ -10,11 +10,15 @@ import {
     TextInput,
     Image,
     TouchableOpacity,
-    Platform
+    Platform,
+    ScrollView
 } from 'react-native';
 
 
 import Dimensions from 'Dimensions';
+import TopView from './TopView'
+import MiddleView from './MiddleView'
+import MiddleBottomView from './MiddleBottomView'
 
 var {width, height} = Dimensions.get('window');
 
@@ -23,6 +27,12 @@ export default class Home extends Component {
         return (
             <View style={styles.container}>
                 {this._renderNavBar()}
+                <ScrollView
+                >
+                    <TopView/>
+                    <MiddleView/>
+                    <MiddleBottomView/>
+                </ScrollView>
             </View>
         );
     }
@@ -60,7 +70,7 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F5FCFF',
+        backgroundColor: '#e8e8e8',
     },
     topNav: {
         height: 64,

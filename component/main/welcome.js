@@ -28,7 +28,7 @@ export default class Welcome extends Component {
             this.props.navigator.replace({
                 component: Main
             })
-        }, 1500);
+        }, 500);
     }
 
 }

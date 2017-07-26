@@ -21,23 +21,23 @@ export default class More extends Component {
             <View style={styles.container}>
                 {this._renderNavBar()}
                 <ScrollView>
-                    <View style={{marginTop: 20}}>
+                    <View style={{marginTop: 10}}>
                         <MoreCommonCell title='扫一扫'/>
                     </View>
-                    <View style={{marginTop: 20}}>
+                    <View style={{marginTop: 10}}>
                         <MoreCommonCell title='省流量模式' isSwitch={true}/>
                         <MoreCommonCell title='消息提醒'/>
                         <MoreCommonCell title='邀请好友使用'/>
                         <MoreCommonCell title='清空缓存' rightTitle='1.2M'/>
                     </View>
-                    <View style={{marginTop: 20}}>
+                    <View style={{marginTop: 10}}>
                         <MoreCommonCell title='问卷调查'/>
                         <MoreCommonCell title='支付帮助'/>
                         <MoreCommonCell title='网络诊断'/>
                         <MoreCommonCell title='问卷调查'/>
                         <MoreCommonCell title='我要应聘'/>
                     </View>
-                    <View style={{marginTop: 20}}>
+                    <View style={{marginTop: 10}}>
                         <MoreCommonCell title='精品应用'/>
                     </View>
                 </ScrollView>

@@ -1,0 +1,20 @@
+{
+  "stid": "720698155324449024",
+  "data": [
+    {
+      "position": 0,
+      "typeface_color": "#ff9900",
+      "id":7486,
+      "share":{
+        "message":"1元能吃肯德基",
+        "url":"http://i.meituan.com/firework/kfchanbao"
+      },
+      "title":"1元能吃肯德基",
+      "module":false,
+      "maintitle":"1元能吃肯德基",
+      "tplurl":"imeituan://www.meituan.com/web?url=http://i.meituan.com/firework/kfchanbao",
+      "type":1,
+      "imageurl":"http://p0.meituan.net/w.h/groupop/9aa35eed64db45aa33f9e74726c59d938450/png"
+    }
+  ]
+}

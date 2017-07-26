@@ -26,14 +26,14 @@ export default class Mine extends Component {
             >
                 <MineHeadView/>
 
-                <View style={{marginTop: 20}}>
+                <View style={{marginTop: 10}}>
                     <MineCommonCell leftTitle='我的订单'
                                     rightTitle='查看全部订单'
                                     leftIconName='collect'
                     />
                     <MineMiddleView/>
                 </View>
-                <View style={{marginTop: 20}}>
+                <View style={{marginTop: 10}}>
                     <MineCommonCell leftTitle='钱包'
                                     rightTitle='账户余额 ¥99'
                                     leftIconName='draft'
@@ -43,18 +43,18 @@ export default class Mine extends Component {
                                     leftIconName='like'
                     />
                 </View>
-                <View style={{marginTop: 20}}>
+                <View style={{marginTop: 10}}>
                     <MineCommonCell leftTitle='积分商城'
                                     leftIconName='card'
                     />
                 </View>
-                <View style={{marginTop: 20}}>
+                <View style={{marginTop: 10}}>
                     <MineCommonCell leftTitle='今日推荐'
                                     leftIconName='new_friend'
                                     rightIconName='me_new'
                     />
                 </View>
-                <View style={{marginTop: 20}}>
+                <View style={{marginTop: 10}}>
                     <MineCommonCell leftTitle='我要合作'
                                     rightTitle='轻松开店，快来快来'
                                     leftIconName='pay'
