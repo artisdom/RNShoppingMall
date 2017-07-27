@@ -2,19 +2,28 @@
   "stid": "720698155324449024",
   "data": [
     {
-      "position": 0,
-      "typeface_color": "#ff9900",
-      "id":7486,
-      "share":{
-        "message":"1元能吃肯德基",
-        "url":"http://i.meituan.com/firework/kfchanbao"
-      },
-      "title":"1元能吃肯德基",
-      "module":false,
-      "maintitle":"1元能吃肯德基",
-      "tplurl":"imeituan://www.meituan.com/web?url=http://i.meituan.com/firework/kfchanbao",
-      "type":1,
-      "imageurl":"http://p0.meituan.net/w.h/groupop/9aa35eed64db45aa33f9e74726c59d938450/png"
+      "color": "#ff9900",
+      "title": "1元吃肯德基",
+      "imageurl": "http://p0.meituan.net/w.h/groupop/9aa35eed64db45aa33f9e74726c59d938450.png",
+      "deputytitle": "新用户专享"
+    },
+    {
+      "color": "#f6687d",
+      "title": "4月开春大促",
+      "imageurl": "http://p0.meituan.net/w.h/groupop/b8fb2def2c0063c9acabed6cbf1c6544952.png",
+      "deputytitle": "小长假美美哒"
+    },
+    {
+      "color": "#6bbd00",
+      "title": "外卖新客",
+      "imageurl": "http://p0.meituan.net/w.h/groupop/e1855577efd5280c905ab7a438b83f3d5000.png",
+      "deputytitle": "最高立减30元"
+    },
+    {
+      "color": "#06c1ae",
+      "title": "1元抢吧",
+      "imageurl": "http://p0.meituan.net/w.h/groupop/9aa35eed64db45aa33f9e74726c59d938450.png",
+      "deputytitle": "爆品抢到手软"
     }
   ]
 }

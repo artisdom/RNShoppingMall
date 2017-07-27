@@ -19,6 +19,7 @@ import Dimensions from 'Dimensions';
 import TopView from './TopView'
 import MiddleView from './MiddleView'
 import MiddleBottomView from './MiddleBottomView'
+import ShopCenter from './ShopCenter'
 
 var {width, height} = Dimensions.get('window');
 
@@ -32,6 +33,7 @@ export default class Home extends Component {
                     <TopView/>
                     <MiddleView/>
                     <MiddleBottomView/>
+                    <ShopCenter/>
                 </ScrollView>
             </View>
         );
